@@ -1,0 +1,1 @@
+<?= '<i class="fa fa-trash fa-2" aria-hidden="true"></i>' ?>
