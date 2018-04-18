@@ -26,9 +26,6 @@ class TasksController extends AppController
         $this->viewBuilder()->layout('InternalPages/newLayout');
         $this->loadComponent('RequestHandler');
         $this->loadComponent('Paginator');
-        $this->set('projects', $this->Tasks->Projects->find()
-        ->where(['user_id' => $this->Auth->user('id')])
-        ->all());
     }
     
     /**
@@ -108,10 +105,11 @@ class TasksController extends AppController
                 $this->Flash->error(__('The task could not be saved. Please, try again.'));
             }
         }
-        $priorities = $this->Tasks->Priorities->find('list', ['limit' => 200]);
+
+        //$priorities = $this->Tasks->Priorities->find('list', ['limit' => 200]);
         $users = $this->Tasks->Users->find('list', ['limit' => 200]);
-        $projects = $this->Tasks->Projects->find('list', ['limit' => 200]);
-        $this->set(compact('task', 'priorities', 'users', 'projects'));
+        //$projects = $this->Tasks->Projects->find('list', ['limit' => 200]);
+        $this->set(compact('task', 'users'));
         $this->set('_serialize', ['task']);
     }
     
@@ -140,6 +138,7 @@ class TasksController extends AppController
                 $this->Flash->error(__('This is not post action.'));
             }
         }
+
         $priorities = $this->Tasks->Priorities->find('list', ['limit' => 200]);
         $users = $this->Tasks->Users->find('list', ['limit' => 200]);
         $projects = $this->Tasks->Projects->find('list', ['limit' => 200]);
@@ -181,13 +180,6 @@ class TasksController extends AppController
         $id = $this->request->query('id');
         $task = $this->Tasks->get($id);
         die(json_encode($task));
-    }
-    
-    public function pepe($id = null)
-    {
-        $selectedState = $this->Tasks->States->find()->where(['code'=>'w'])->first();
-
-        $this->set('allState', $allState->id);
     }
 
     public function editState()

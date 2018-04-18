@@ -60,20 +60,20 @@
                                 </div>
                                 <?php
                                     switch ($task->state_id){
-                                        case 2:
-                                            echo "<a id=\"option".$task->id."\" style=\"font-size: 1.3em;\" class=\"stateProcess\" title=\"State Created\"
+                                        case 1:
+                                            echo "<a id=\"option".$task->id."\" style=\"font-size: 1.3em;\" class=\"stateProcess\" title=\"State Process\"
                                             onmouseover=\"putTogether.seeStatePanelOptions(".$task->id.");\"
                                             onmouseout=\"putTogether.unseeStatePanelOptions(".$task->id.")\"
                                             ><i id=\"icon".$task->id."\" class=\"fa fa-play-circle fa-2\" aria-hidden=\"true\"></i></a>";
                                             break;
-                                        case 4: 
-                                            echo "<a id=\"option".$task->id."\" style=\"font-size: 1.3em;\" class=\"stateWaiting\" title=\"State Created\".
+                                        case 2: 
+                                            echo "<a id=\"option".$task->id."\" style=\"font-size: 1.3em;\" class=\"stateWaiting\" title=\"State Waiting\".
                                             onmouseover=\"putTogether.seeStatePanelOptions($task->id);\".
                                             onmouseout=\"putTogether.unseeStatePanelOptions($task->id)\".
                                             ><i id=\"icon".$task->id."\" class=\"fa fa-pause-circle fa-2\" aria-hidden=\"true\"></i></a>";
                                             break;
-                                        case 5:
-                                            echo "<a id=\"option".$task->id."\" style=\"font-size: 1.3em;\" class=\"stateFinished\" title=\"State Created\" onmouseover=\"putTogether.seeStatePanelOptions($task->id);\"
+                                        case 3:
+                                            echo "<a id=\"option".$task->id."\" style=\"font-size: 1.3em;\" class=\"stateFinished\" title=\"State Finished\" onmouseover=\"putTogether.seeStatePanelOptions($task->id);\"
                                             onmouseout=\"putTogether.unseeStatePanelOptions($task->id)\" 
                                             ><i id=\"icon".$task->id."\" class=\"fa fa-check-circle fa-2\" aria-hidden=\"true\"></i></a>";
                                             break;
