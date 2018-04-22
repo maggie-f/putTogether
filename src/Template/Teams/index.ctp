@@ -1,16 +1,15 @@
-<nav class="large-3 medium-4 columns" id="actions-sidebar">
-    <ul class="side-nav">
-        <li class="heading"><?= __('Actions') ?></li>
-        <li><?= $this->Html->link(__('New Team'), ['action' => 'add']) ?></li>
-    </ul>
-</nav>
-<div class="col-xs-12 col-md-6">
+<!-- Lista de Team -->
+<div class="col-xs-6">
     <h3><?= __('Teams') ?></h3>
+    <nav>
+        <ul class="side-nav">
+            <li><?= $this->Html->link(__('New Team'), ['action' => 'add']) ?></li>
+        </ul>
+    </nav>
     <table class="table table-striped">
         <thead>
             <tr>
                 <th scope="col"><?= $this->Paginator->sort('name') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('add_date') ?></th>
                 <th scope="col" class="actions"><?= __('Actions') ?></th>
             </tr>
         </thead>
@@ -18,7 +17,6 @@
             <?php foreach ($teams as $team): ?>
             <tr>
                 <td><?= h($team->name) ?></td>
-                <td><?= h($team->add_date) ?></td>
                 <td class="actions">
                     <?= $this->Html->link(__('View'), ['action' => 'view', $team->id]) ?>
                     <?= $this->Html->link(__('Edit'), ['action' => 'edit', $team->id]) ?>
@@ -27,5 +25,5 @@
             </tr>
             <?php endforeach; ?>
         </tbody>
-    </table
+    </table>
 </div>

@@ -27,20 +27,23 @@ $pageDescription = 'Wellcome to PutTogether';
     </title>
 
     <!-- Style -->
-    <?= $this->Html->css('bootstrap.css'); ?>
+    <?= $this->Html->css('bootstrap.min.v4.css'); ?>
+    <?= $this->Html->css('bootstrap-grid.min.css'); ?>
+    <?= $this->Html->css('bootstrap-reboot.min.css'); ?>
     <?= $this->Html->css('font-awesome.min.css'); ?>
-    <?= $this->Html->css('main.css') ?>
-    <?= $this->Html->css('jquery-ui-1.12.1.css') ?>
-    <?= $this->fetch('css') ?>
-    
-    <!-- js -->
-    <?= $this->fetch('meta') ?>
-    <?= $this->Html->script('jquery-1.12.4.js'); ?> 
+    <?= $this->Html->css('site.css') ?>
+
+    <!-- Js -->
+    <?= $this->Html->script('jquery-3.1.1.min.js'); ?>
     <?= $this->Html->script('jquery-ui-1.12.1.js'); ?>
-    <?= $this->Html->script('bootstrap.js'); ?> 
+    <?= $this->Html->script('bootstrap.bundle.min.js'); ?>
+    <?= $this->Html->script('bootstrap.min.js'); ?>
     <?= $this->Html->script('putTogether.js'); ?>
+
+    <!-- Fetch -->
+    <?= $this->fetch('meta') ?>
+    <?= $this->fetch('css') ?>
     <?= $this->fetch('script') ?>
-    <link rel="shortcut icon" href="/PutTogether/favicon.ico" type="image/x-icon" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -71,7 +74,7 @@ $pageDescription = 'Wellcome to PutTogether';
 
         <div id="letsee"></div>		
         <!-- Main Content -->
-        <div class="container" id="projectBox">
+        <main class="container">
             <div class="container-fluid">   
                 <div class="row">
                     <?= $this->Flash->render() ?>
@@ -79,7 +82,7 @@ $pageDescription = 'Wellcome to PutTogether';
                 </div>
             </div>
             <hr>
-        </div>		
+        </main>
 
     <div class="row">
         <div class="col-md-12">

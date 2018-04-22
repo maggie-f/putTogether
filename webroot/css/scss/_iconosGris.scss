@@ -1,0 +1,53 @@
+$primaryGreen: #6FC96F;
+$secondaryPurple:#9958db;
+$therrPink: #ffb6c1;
+$fourBlue:#5959db;
+$fiveGray:#8b8282;
+$white: white;
+
+//Header
+.header{
+    background-color: $primaryGreen;
+    color: $white;
+    a{
+        cursor: pointer;
+        text-decoration: none;
+        color: $white;
+    }
+}
+
+//Custom Card
+.card{
+    .bg-success{
+        a{
+            text-decoration: none;
+            color: $white;
+            &:hover{
+                color: $fiveGray;
+            }
+        }
+    }
+}
+.headPanel{
+    .headPanelBody{
+        border: 1px solid transparent;
+        -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+        box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+        transition: all 1s;
+        .icon {
+            float: right;
+            top: -50px;
+            position: relative;
+        }
+    }
+}
+.headPanelOnClick{
+    margin-bottom: 20px;
+    background-color: #5A6E57;
+    color: #fff;
+}
+.headPanelNonClick{
+    margin-bottom: 20px;
+    background-color: #fff;
+    color: #5A6E57;
+}

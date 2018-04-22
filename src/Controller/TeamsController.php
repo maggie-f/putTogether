@@ -10,6 +10,11 @@ use App\Controller\AppController;
  */
 class TeamsController extends AppController
 {
+    public function initialize()
+    {
+        parent::initialize();
+        $this->viewBuilder()->layout('InternalPages/projects');
+    }
 
     /**
      * Index method

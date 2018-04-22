@@ -1,4 +1,4 @@
-<nav class="large-3 medium-4 columns" id="actions-sidebar">
+<nav class="col-xs-12 col-sm-6">
     <ul class="side-nav">
         <li class="heading"><?= __('Actions') ?></li>
         <li><?= $this->Form->postLink(
@@ -12,7 +12,7 @@
         <li><?= $this->Html->link(__('New User'), ['controller' => 'Users', 'action' => 'add']) ?></li>
     </ul>
 </nav>
-<div class="teams form large-9 medium-8 columns content">
+<div class="col-xs-12 col-sm-6">
     <?= $this->Form->create($team) ?>
     <fieldset>
         <legend><?= __('Edit Team') ?></legend>

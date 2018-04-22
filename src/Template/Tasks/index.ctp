@@ -27,8 +27,6 @@
                 <thead>
                     <tr>
                         <th scope="col"><?= $this->Paginator->sort('name') ?></th>
-                        <th scope="col"><?= $this->Paginator->sort('created') ?></th>
-                        <th scope="col"><?= $this->Paginator->sort('state_id') ?></th>
                         <th scope="col" class="actions"><?= __('Actions') ?></th>
                     </tr>
                 </thead>
@@ -38,71 +36,73 @@
                             <td>
                                 <a onclick="putTogether.loadTaskData(<?= $task->id ?>)"><?= $task->name; ?></a>
                             </td>
-                            <td>
-                                <?php if(!is_null($task->description) && !empty($task->description))
-                                    echo "
-                                            <a title=\"Show/hide description\" role=\"button\" data-toggle=\"collapse\" data-parent=\"#accordion\" href=\"#collapseOne".$task->id."\" aria-expanded=\"true\"
-                                            aria-controls=\"collapseOne\" style=\"font-size:1.3em; color:#000;\">
-                                                <i class=\"fa fa-plus-square\" aria-hidden=\"true\"></i> </a>
-                                        ";
-                                ?>
-                            </td>
                             <td style="position: relative;">
-                                <div class="floatPanel" id="stateOptions<?= $task->id ?>" style="display: none;"
-                                onmouseover="putTogether.seeStatePanelOptions(<?= $task->id ?>);"
-                                onmouseout="putTogether.unseeStatePanelOptions(<?= $task->id ?>)">
-                                    <a class="stateProcess" title="State In Process"  
-                                     onclick="putTogether.editState(<?= $task->id ?>, 'p')"><i class="fa fa-play-circle fa-2" aria-hidden="true"></i></a>
-                                    <a class="stateWaiting" title="State Waiting"  
-                                     onclick="putTogether.editState(<?= $task->id ?>, 'w')"><i class="fa fa-pause-circle fa-2" aria-hidden="true"></i></a>
-                                    <a class="stateFinished" title="State Fishied"  
-                                     onclick="putTogether.editState(<?= $task->id ?>, 'f')"><i class="fa fa-check-circle fa-2" aria-hidden="true"></i></a>
-                                </div>
-                                <?php
-                                    switch ($task->state_id){
-                                        case 1:
-                                            echo "<a id=\"option".$task->id."\" style=\"font-size: 1.3em;\" class=\"stateProcess\" title=\"State Process\"
-                                            onmouseover=\"putTogether.seeStatePanelOptions(".$task->id.");\"
-                                            onmouseout=\"putTogether.unseeStatePanelOptions(".$task->id.")\"
-                                            ><i id=\"icon".$task->id."\" class=\"fa fa-play-circle fa-2\" aria-hidden=\"true\"></i></a>";
-                                            break;
-                                        case 2: 
-                                            echo "<a id=\"option".$task->id."\" style=\"font-size: 1.3em;\" class=\"stateWaiting\" title=\"State Waiting\".
-                                            onmouseover=\"putTogether.seeStatePanelOptions($task->id);\".
-                                            onmouseout=\"putTogether.unseeStatePanelOptions($task->id)\".
-                                            ><i id=\"icon".$task->id."\" class=\"fa fa-pause-circle fa-2\" aria-hidden=\"true\"></i></a>";
-                                            break;
-                                        case 3:
-                                            echo "<a id=\"option".$task->id."\" style=\"font-size: 1.3em;\" class=\"stateFinished\" title=\"State Finished\" onmouseover=\"putTogether.seeStatePanelOptions($task->id);\"
-                                            onmouseout=\"putTogether.unseeStatePanelOptions($task->id)\" 
-                                            ><i id=\"icon".$task->id."\" class=\"fa fa-check-circle fa-2\" aria-hidden=\"true\"></i></a>";
-                                            break;
-                                        default:
-                                            echo "<a id=\"option".$task->id."\" style=\"font-size: 1.3em;\" class=\"stateCreated\" title=\"State Created\"
-                                            onmouseover=\"putTogether.seeStatePanelOptions($task->id);\"
-                                            onmouseout=\"putTogether.unseeStatePanelOptions($task->id)\"
-                                            ><i id=\"icon".$task->id."\" class=\"fa fa-circle fa-2\" aria-hidden=\"true\"></i></a>";
-                                            break;
-                                    }
-                                ?>
-                            </td>
-                            <td>
-                                <a title="Delete" style="font-size:1.3em; color:#000;" data-toggle="modal" data-target=".bs-example-modal-sm-<?= $task->id; ?>"><?= $this->element('Items\trash'); ?></a>
-                                <div class="modal fade bs-example-modal-sm-<?= $task->id; ?>" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
-                                    <div class="modal-dialog modal-sm" role="document">
-                                        <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h4 class="modal-title" id="mySmallModalLabel">Delete Task</h4> 
-                                        </div>
-                                        <div class="modal-body"> 
-                                            <p>Are you sure you want to delete your task: <?= $task->name; ?>? <br /> All the information will be errace.</p>
-                                            <?= $this->Form->postLink('delete', ['action' => 'delete', $task->id],
-                                                ['escape'=>false, 'class' => 'btn btn-primary btn-block']); ?>
-                                            <button type="button" class="btn btn-default btn-block" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">Cancel</span></button>
-                                        </div>
-                                        </div>
-                                    </div>	
-                                </div>
+                                <!-- Delete Task-->
+                                    <a title="Delete" style="font-size:1.3em; color:#000;" data-toggle="modal" data-target=".bs-example-modal-sm-<?= $task->id; ?>"><?= $this->element('Items\trash'); ?></a>
+                                    <div class="modal fade bs-example-modal-sm-<?= $task->id; ?>" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                                        <div class="modal-dialog modal-sm" role="document">
+                                            <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h4 class="modal-title" id="mySmallModalLabel">Delete Task</h4> 
+                                            </div>
+                                            <div class="modal-body"> 
+                                                <p>Are you sure you want to delete your task: <?= $task->name; ?>? <br /> All the information will be errace.</p>
+                                                <?= $this->Form->postLink('delete', ['action' => 'delete', $task->id],
+                                                    ['escape'=>false, 'class' => 'btn btn-primary btn-block']); ?>
+                                                <button type="button" class="btn btn-default btn-block" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">Cancel</span></button>
+                                            </div>
+                                            </div>
+                                        </div>	
+                                    </div>
+                                <!-- End Delete Task-->
+                                <!-- State Icon -->
+                                    <div class="floatPanel" id="stateOptions<?= $task->id ?>" style="display: none;"
+                                        onmouseover="putTogether.seeStatePanelOptions(<?= $task->id ?>);"
+                                        onmouseout="putTogether.unseeStatePanelOptions(<?= $task->id ?>)">
+                                            <a class="stateProcess" title="State In Process"  
+                                            onclick="putTogether.editState(<?= $task->id ?>, 'p')"><i class="fa fa-play-circle fa-2" aria-hidden="true"></i></a>
+                                            <a class="stateWaiting" title="State Waiting"  
+                                            onclick="putTogether.editState(<?= $task->id ?>, 'w')"><i class="fa fa-pause-circle fa-2" aria-hidden="true"></i></a>
+                                            <a class="stateFinished" title="State Fishied"  
+                                            onclick="putTogether.editState(<?= $task->id ?>, 'f')"><i class="fa fa-check-circle fa-2" aria-hidden="true"></i></a>
+                                    </div>
+                                    <?php
+                                        switch ($task->state_id){
+                                            case 1:
+                                                echo "<a id=\"option".$task->id."\" style=\"font-size: 1.3em;\" class=\"stateProcess\" title=\"State Process\"
+                                                onmouseover=\"putTogether.seeStatePanelOptions(".$task->id.");\"
+                                                onmouseout=\"putTogether.unseeStatePanelOptions(".$task->id.")\"
+                                                ><i id=\"icon".$task->id."\" class=\"fa fa-play-circle fa-2\" aria-hidden=\"true\"></i></a>";
+                                                break;
+                                            case 2: 
+                                                echo "<a id=\"option".$task->id."\" style=\"font-size: 1.3em;\" class=\"stateWaiting\" title=\"State Waiting\".
+                                                onmouseover=\"putTogether.seeStatePanelOptions($task->id);\".
+                                                onmouseout=\"putTogether.unseeStatePanelOptions($task->id)\".
+                                                ><i id=\"icon".$task->id."\" class=\"fa fa-pause-circle fa-2\" aria-hidden=\"true\"></i></a>";
+                                                break;
+                                            case 3:
+                                                echo "<a id=\"option".$task->id."\" style=\"font-size: 1.3em;\" class=\"stateFinished\" title=\"State Finished\" onmouseover=\"putTogether.seeStatePanelOptions($task->id);\"
+                                                onmouseout=\"putTogether.unseeStatePanelOptions($task->id)\" 
+                                                ><i id=\"icon".$task->id."\" class=\"fa fa-check-circle fa-2\" aria-hidden=\"true\"></i></a>";
+                                                break;
+                                            default:
+                                                echo "<a id=\"option".$task->id."\" style=\"font-size: 1.3em;\" class=\"stateCreated\" title=\"State Created\"
+                                                onmouseover=\"putTogether.seeStatePanelOptions($task->id);\"
+                                                onmouseout=\"putTogether.unseeStatePanelOptions($task->id)\"
+                                                ><i id=\"icon".$task->id."\" class=\"fa fa-circle fa-2\" aria-hidden=\"true\"></i></a>";
+                                                break;
+                                        }
+                                    ?>
+                                <!-- End State Icon -->
+                                <!-- Descriptio -->
+                                    <?php if(!is_null($task->description) && !empty($task->description))
+                                        echo "
+                                                <a title=\"Show/hide description\" role=\"button\" data-toggle=\"collapse\" data-parent=\"#accordion\" href=\"#collapseOne".$task->id."\" aria-expanded=\"true\"
+                                                aria-controls=\"collapseOne\" style=\"font-size:1.3em; color:#000;\">
+                                                    <i class=\"fa fa-plus-square\" aria-hidden=\"true\"></i> </a>
+                                            ";
+                                    ?>
+                                <!-- End Descriptio -->
                             </td>
                         </tr>
                          <?php if(!is_null($task->description) && !empty($task->description)) {
@@ -130,8 +130,4 @@
 </div>
 <div class="col-xm-4 col-sm-4" id="taskEditor" >
     <?= $this->element('Editors\taskEdit'); ?>
-</div>
-
-
-
-
+</div>  

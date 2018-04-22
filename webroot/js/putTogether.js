@@ -118,15 +118,15 @@ var putTogether = {
 						$("#option"+idTask).removeClass();
 						$("#icon"+idTask).removeClass();
 						switch (idState){
-							case 2:
+							case 'p':
 								$("#option"+idTask).addClass("stateProcess");
 								$("#icon"+idTask).addClass("fa fa-play-circle");
 								break;
-							case 4:
+							case 'w':
 								$("#option"+idTask).addClass("stateWaiting");
 								$("#icon"+idTask).addClass("fa fa-pause-circle");
 								break;
-							case 5:
+							case 'f':
 								$("#option"+idTask).addClass("stateFinished");
 								$("#icon"+idTask).addClass("fa fa-check-circle");
 								break;

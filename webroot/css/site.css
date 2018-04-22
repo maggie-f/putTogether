@@ -1,0 +1,41 @@
+.header {
+  background-color: #6FC96F;
+  color: white;
+}
+.header a {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+.card .bg-success a {
+  text-decoration: none;
+  color: white;
+}
+.card .bg-success a:hover {
+  color: #8b8282;
+}
+
+.headPanel .headPanelBody {
+  border: 1px solid transparent;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  transition: all 1s;
+}
+.headPanel .headPanelBody .icon {
+  float: right;
+  top: -50px;
+  position: relative;
+}
+
+.headPanelOnClick {
+  margin-bottom: 20px;
+  background-color: #5A6E57;
+  color: #fff;
+}
+
+.headPanelNonClick {
+  margin-bottom: 20px;
+  background-color: #fff;
+  color: #5A6E57;
+}

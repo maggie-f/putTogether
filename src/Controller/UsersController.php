@@ -13,10 +13,9 @@ class UsersController extends AppController
     public function initialize()
     {
         parent::initialize();
-        $this->Auth->allow(['logout', 'add']);
+        $this->Auth->allow(['logout', 'register']);
     }
-    
-    
+
     /**
     * Index method
     *
@@ -44,27 +43,6 @@ class UsersController extends AppController
         ]);
         
         $this->set('user', $user);
-        $this->set('_serialize', ['user']);
-    }
-    
-    /**
-    * Add method
-    *
-    * @return \Cake\Network\Response|void Redirects on successful add, renders view otherwise.
-    */
-    public function add()
-    {
-        $user = $this->Users->newEntity();
-        if ($this->request->is('post')) {
-            $user->email = $this->request->data['Form']['Email'];
-            $user->password = $this->request->data['Form']['Password'];
-            if ($this->Users->save($user)) {
-                return $this->redirect(['action' => 'login']);
-            } else {
-                $this->Flash->error(__('The user could not be saved. Please, try again.'));
-            }
-        }
-        $this->set(compact('user'));
         $this->set('_serialize', ['user']);
     }
     
@@ -115,10 +93,36 @@ class UsersController extends AppController
         return $this->redirect(['action' => 'index']);
     }
     
+    /**
+    * Add method
+    *
+    * @return \Cake\Network\Response|void Redirects on successful add, renders view otherwise.
+    */
+    public function register()
+    {
+        $user = $this->Users->newEntity();
+        if ($this->request->is('post')) {
+            $user->email = $this->request->data['Form']['Email'];
+            $user->password = $this->request->data['Form']['Password'];
+            if ($this->Users->save($user)) {
+                return $this->redirect(['action' => 'login']);
+            } else {
+                $this->Flash->error(__('The user could not be saved. Please, try again.'));
+            }
+        }
+        $this->set(compact('user'));
+        $this->set('_serialize', ['user']);
+    }
+
+    /**
+    * Login method
+    *
+    * @return \Cake\Network\Response|void Redirects on successful login, renders view otherwise.
+    */
     public function login()
     {
         $this->set('login', 'View Login Users');
-        $this->viewBuilder()->layout('InternalPages/login');
+        $this->viewBuilder()->layout('InternalPages/sign');
         if($this->request->is('post')){
             $user = $this->Auth->identify();
             if($user){

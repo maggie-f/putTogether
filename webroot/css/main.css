@@ -1,3 +1,4 @@
+
  a {
     color: #5A6E57;
     cursor: pointer;
@@ -52,7 +53,7 @@ ul{
     box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
 }
 .headPanel .headPanelBody {
-    padding: 10px 15px;
+    padding: 15px 20px;
     transition: all 1s;
 }
 .headPanel .headPanelBody .icon {
@@ -130,7 +131,9 @@ ul{
     border-top-right-radius: 0 !important;
     font-size: 1.1em; 
 }
-
+.panelGreen a {
+	color: #fff !important; 
+}
 /** NAVBAR **/
 .navbar{
 	background-color: #5cb85c;

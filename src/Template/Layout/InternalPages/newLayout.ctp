@@ -40,6 +40,12 @@ $pageDescription = 'Wellcome to PutTogether';
     <?= $this->Html->script('bootstrap.js'); ?> 
     <?= $this->Html->script('putTogether.js'); ?>
     <?= $this->fetch('script') ?>
+
+    <!-- Fetch -->
+    <?= $this->fetch('meta') ?>
+    <?= $this->fetch('css') ?>
+    <?= $this->fetch('script') ?>
+
     <link rel="shortcut icon" href="/PutTogether/favicon.ico" type="image/x-icon" />
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

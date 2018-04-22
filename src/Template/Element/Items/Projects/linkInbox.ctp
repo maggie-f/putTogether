@@ -1,10 +1,10 @@
-<div class="headPanelBody headPanelNonClick">
-    <p>Inbox</p>
+<div class="card headPanelBody headPanelNonClick">
+  <div class="card-body">
+    <h5 class="card-title">Inbox</h5>
     <i class="icon fa fa-inbox fa-3x"></i>
-    <span>&nbsp;</span>
+    <br/>
     <div class="progress">
-        <div role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 50%;" class="progress-bar progress-bar-info">
-            <span data-counter="" data-start="10" data-end="50" data-step="1" data-duration="0">7</span>
-        </div>
+        <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
     </div>
+  </div>
 </div>
