@@ -16,11 +16,18 @@
   color: #8b8282;
 }
 
+.headPanel a {
+  text-decoration: none;
+  color: white;
+}
+.headPanel a:hover {
+  color: #8b8282;
+}
 .headPanel .headPanelBody {
-  border: 1px solid transparent;
+  border: 1px solid #8b8282;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
-  transition: all 1s;
+  transition: all 0.8s ease;
 }
 .headPanel .headPanelBody .icon {
   float: right;
@@ -30,12 +37,297 @@
 
 .headPanelOnClick {
   margin-bottom: 20px;
-  background-color: #5A6E57;
+  background-color: #8b8282;
   color: #fff;
 }
 
 .headPanelNonClick {
   margin-bottom: 20px;
   background-color: #fff;
+  color: #8b8282;
+}
+
+.tasks a i {
+  color: #000;
+  font-size: 1.2em;
+}
+
+.borraAnterior {
+  float: none !important;
+  top: 0 !important;
+  position: inherit !important;
+}
+
+.unselected {
+  margin-bottom: 20px;
+  background-color: #fff;
   color: #5A6E57;
+}
+
+.unselected {
+  margin-bottom: 20px;
+  background-color: #fff;
+  color: #5A6E57;
+}
+
+.projectBorder {
+  border: #6B1687 solid 3px !important;
+}
+
+.teamBorder {
+  border: #1D6DB3 solid 3px !important;
+}
+
+.taskBorder {
+  border: #5cb85c solid 3px !important;
+}
+
+.messageBorder {
+  border: #5bc0de solid 3px !important;
+}
+
+.fileBorder {
+  border: #f0ad4e solid 3px !important;
+}
+
+.calendarBorder {
+  border: #d9534f solid 3px !important;
+}
+
+.projectSelected {
+  margin-bottom: 20px;
+  background-color: #6B1687;
+  color: #fff;
+}
+
+.teamSelected {
+  margin-bottom: 20px;
+  background-color: #337ab7;
+  color: #fff;
+}
+
+.tasksSelected {
+  margin-bottom: 20px;
+  background-color: #5cb85c;
+  color: #fff;
+}
+
+.messagesSelected {
+  margin-bottom: 20px;
+  background-color: #5bc0de;
+  color: #fff;
+}
+
+.filesSelected {
+  margin-bottom: 20px;
+  background-color: #f0ad4e;
+  color: #fff;
+}
+
+.calendarSelected {
+  margin-bottom: 20px;
+  background-color: #d9534f;
+  color: #fff;
+}
+
+.panelGreen {
+  background-color: #6FC96F !important;
+  color: #fff !important;
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+  font-size: 1.1em;
+}
+
+.panelGreen a {
+  color: #fff !important;
+}
+
+#formPart div {
+  padding: 5px 0;
+}
+
+.stateProcess {
+  color: #64B2F5;
+}
+
+a.stateProcess, a.stateProcess:link, a.stateProcess:visited,
+a.stateCreated, a.stateCreated:link, a.stateCreated:visited,
+a.stateWaiting, a.stateWaiting:link, a.stateWaiting:visited,
+a.stateFinished, a.stateFinished:link, a.stateFinished:visited {
+  border-radius: 200px 200px 200px 200px;
+  -moz-border-radius: 200px 200px 200px 200px;
+  -webkit-border-radius: 200px 200px 200px 200px;
+  border: 0px solid #000000;
+}
+
+/* mouse over link */
+a.stateProcess:hover {
+  color: #64B2F5;
+  font-size: 1.1em;
+}
+
+.stateCreated {
+  color: #FCED14;
+}
+
+a.stateCreated:hover {
+  color: #FCED14;
+  font-size: 1.1em;
+}
+
+.stateWaiting {
+  color: #FC8905;
+}
+
+a.stateWaiting:hover {
+  color: #FC8905;
+  font-size: 1.1em;
+}
+
+.stateFinished {
+  color: #6FC96F;
+}
+
+a.stateFinished:hover {
+  color: #6FC96F;
+  font-size: 1.1em;
+}
+
+.floatPanel {
+  border-radius: 200px 200px 200px 200px;
+  -moz-border-radius: 200px 200px 200px 200px;
+  -webkit-border-radius: 200px 200px 200px 200px;
+  border: 2px solid #000000;
+  z-index: 1000;
+  position: absolute;
+  top: -23px;
+  font-size: 2em;
+  left: -47px;
+  padding: 3px;
+  background-color: #fff;
+}
+
+/** Vertical Menu **/
+#vertical-menu a {
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#vertical-menu a:hover {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+}
+
+#vertical-menu a:focus {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+}
+
+#projects a {
+  padding-left: 40px;
+}
+
+#projects a:hover {
+  background-color: pink;
+}
+
+#projects a:focus {
+  background-color: yellow;
+}
+
+@media screen and (min-width: 770px) {
+  .jumbotron {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+/** BOTONES **/
+.btn-violet {
+  color: #fff;
+  background-color: #CE67F0;
+  border-color: #BE4FE3;
+}
+
+.btn-violet:focus,
+.btn-violet.focus,
+.btn-violet:hover {
+  color: #fff;
+  background-color: #6B1687;
+  border-color: #BE4FE3;
+}
+
+.btn-violet:active,
+.btn-violet.active,
+.open > .dropdown-toggle.btn-violet,
+.btn-violet:active:hover,
+.btn-violet.active:hover,
+.open > .dropdown-toggle.btn-violet:hover,
+.btn-violet:active:focus,
+.btn-violet.active:focus,
+.open > .dropdown-toggle.btn-violet:focus,
+.btn-violet:active.focus,
+.btn-violet.active.focus,
+.open > .dropdown-toggle.btn-violet.focus {
+  color: #333;
+  background-color: #DEA0F2;
+  border-color: #D783F2;
+}
+
+.btn-violet:active,
+.btn-violet.active,
+.open > .dropdown-toggle.btn-violet {
+  background-image: none;
+}
+
+.btn-violet.disabled:hover,
+.btn-violet[disabled]:hover,
+fieldset[disabled] .btn-violet:hover,
+.btn-violet.disabled:focus,
+.btn-violet[disabled]:focus,
+fieldset[disabled] .btn-violet:focus,
+.btn-violet.disabled.focus,
+.btn-violet[disabled].focus,
+fieldset[disabled] .btn-violet.focus {
+  background-color: #DEA0F2;
+  border-color: #D783F2;
+}
+
+.btn-violet .badge {
+  color: #fff;
+  background-color: #CE67F0;
+}
+
+.notSee {
+  display: none !important;
+}
+
+/* Comments Area */
+#comments .text {
+  width: 80%;
+}
+
+/** Vertical Menu **/
+#vertical-menu a {
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#vertical-menu a:hover {
+  text-decoration: none;
+  color: #6FC96F;
+  font-size: 16px;
+}
+
+#vertical-menu a:focus {
+  text-decoration: none;
+  color: #6FC96F;
+  font-size: 16px;
+}
+
+#projects a {
+  padding-left: 0.6em;
 }

@@ -24,7 +24,7 @@ var putTogether = {
 				putTogether.assingClasses;
 			},
 	seeUnseeMenu: $(function(){
-					$("#icono").click(function(){
+					$(".seeUnseeMenu").click(function(){
 						if (putTogether.visible) {
 							$("#menu").css("display", "none");
 							$("#content").removeClass("col-md-10")

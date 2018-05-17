@@ -1,1 +1,1 @@
-<?= '<i class="fa fa-trash fa-2" aria-hidden="true"></i>' ?>
+<?= '<i class="fas fa-trash-alt fa-fw"></i>' ?>

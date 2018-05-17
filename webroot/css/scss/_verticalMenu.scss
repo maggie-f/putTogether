@@ -1,0 +1,24 @@
+/* Comments Area */
+#comments .text{
+    width: 80%;
+}
+
+/** Vertical Menu **/
+#vertical-menu  a {
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+}
+ #vertical-menu a:hover {
+    text-decoration: none;
+    color: $primaryGreen;
+    font-size: 16px;
+}
+ #vertical-menu a:focus {
+    text-decoration: none;
+    color: $primaryGreen;
+    font-size: 16px;
+}
+#projects a{
+    padding-left: .6em;
+}

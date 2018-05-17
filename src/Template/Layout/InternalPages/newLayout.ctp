@@ -27,19 +27,18 @@ $pageDescription = 'Wellcome to PutTogether';
     </title>
 
     <!-- Style -->
-    <?= $this->Html->css('bootstrap.css'); ?>
-    <?= $this->Html->css('font-awesome.min.css'); ?>
-    <?= $this->Html->css('main.css') ?>
-    <?= $this->Html->css('jquery-ui-1.12.1.css') ?>
-    <?= $this->fetch('css') ?>
-    
-    <!-- js -->
-    <?= $this->fetch('meta') ?>
-    <?= $this->Html->script('jquery-1.12.4.js'); ?> 
+    <?= $this->Html->css('bootstrap.min.v4.css'); ?>
+    <?= $this->Html->css('bootstrap-grid.min.css'); ?>
+    <?= $this->Html->css('bootstrap-reboot.min.css'); ?>
+    <?= $this->Html->css('fontawesome-all.min.css'); ?>
+    <?= $this->Html->css('site.css') ?>
+
+    <!-- Js -->
+    <?= $this->Html->script('jquery-3.1.1.min.js'); ?>
     <?= $this->Html->script('jquery-ui-1.12.1.js'); ?>
-    <?= $this->Html->script('bootstrap.js'); ?> 
+    <?= $this->Html->script('bootstrap.bundle.min.js'); ?>
+    <?= $this->Html->script('bootstrap.min.js'); ?>
     <?= $this->Html->script('putTogether.js'); ?>
-    <?= $this->fetch('script') ?>
 
     <!-- Fetch -->
     <?= $this->fetch('meta') ?>
@@ -63,13 +62,13 @@ $pageDescription = 'Wellcome to PutTogether';
     <div class="container-fluid">
         <div class="row">
             <!-- MENU  -->
-            <div class="col-xs-12 col-sm-2 navbar" id="menu" style="display: none;">
+            <div class="col-xs-12 col-sm-2" id="menu" style="display: none;">
                 <?php echo $this->element('Bars/navBar'); ?>
             </div>
             <!-- Contenido -->
-            <div class="col-xs-12 .col-sm-12" id="content">
+            <div class="col-xs-12 col-sm-12" id="content">
+                <br />
                 <div class="row">
-                    <br />
                     <div class="col-xs-4 col-md-2">
                         <?= $this->element('Bars\verticalOptionTaskBar'); ?>
                     </div>

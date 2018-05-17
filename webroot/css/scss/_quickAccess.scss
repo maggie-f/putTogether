@@ -1,0 +1,53 @@
+//Header
+.header{
+    background-color: $primaryGreen;
+    color: $white;
+    a{
+        cursor: pointer;
+        text-decoration: none;
+        color: $white;
+    }
+}
+
+//Custom Card
+.card{
+    .bg-success{
+        a{
+            text-decoration: none;
+            color: $white;
+            &:hover{
+                color: $fiveGray;
+            }
+        }
+    }
+}
+.headPanel{
+    a{
+        text-decoration: none;
+        color: $white;
+        &:hover{
+            color: $fiveGray;
+        }
+    }
+    .headPanelBody{
+        border: 1px solid $fiveGray;
+        -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+        box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+        transition: all .8s ease;
+        .icon {
+            float: right;
+            top: -50px;
+            position: relative;
+        }
+    }
+}
+.headPanelOnClick{
+    margin-bottom: 20px;
+    background-color: $fiveGray;
+    color: #fff;
+}
+.headPanelNonClick{
+    margin-bottom: 20px;
+    background-color: #fff;
+    color: $fiveGray;
+}

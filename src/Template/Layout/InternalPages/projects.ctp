@@ -30,7 +30,7 @@ $pageDescription = 'Wellcome to PutTogether';
     <?= $this->Html->css('bootstrap.min.v4.css'); ?>
     <?= $this->Html->css('bootstrap-grid.min.css'); ?>
     <?= $this->Html->css('bootstrap-reboot.min.css'); ?>
-    <?= $this->Html->css('font-awesome.min.css'); ?>
+    <?= $this->Html->css('fontawesome-all.min.css'); ?>
     <?= $this->Html->css('site.css') ?>
 
     <!-- Js -->
@@ -53,26 +53,26 @@ $pageDescription = 'Wellcome to PutTogether';
     <![endif]-->
   </head>
   <body>
-    <!-- HEADER -->
+    <!-- Header -->
     <header class="header">
         <?= $this->element('Bars\header'); ?>
     </header>
     
     <!-- After the green  -->
     <div class="row">
-        <div class="col-md-2 navbar" id="menu" style="display: none;">
+        <div class="col-md-2" id="menu" style="display: none;">
             <?php echo $this->element('Bars/navBar'); ?>
         </div>
 
-        <!-- Panel de opciones, Area gris -->
+        <!-- Quick Access Panel -->
         <div class="col-md-12 nopadding" id="content">
-            <div class="jumbotron">
-                <div class="container">
-                    <?php echo $this->element('Bars/projectBar'); ?>
-                </div>
+            <div class="container">
+                <?php echo $this->element('Bars/projectBar'); ?>
             </div>
+        <div>
 
-        <div id="letsee"></div>		
+        <hr />
+
         <!-- Main Content -->
         <main class="container">
             <div class="container-fluid">   
@@ -83,15 +83,15 @@ $pageDescription = 'Wellcome to PutTogether';
             </div>
             <hr>
         </main>
+    </div>
 
-    <div class="row">
+    <!-- Footer -->
+    <footer class="row">
         <div class="col-md-12">
             <div class="container">
-                <footer>
-                    <p>&copy; 2017 Company, Inc.</p>
-                </footer>
+                <p>&copy; 2017 Company, Inc.</p>
             </div>
         </div>
-    </div>
+    </footer>
   </body>
 </html>
