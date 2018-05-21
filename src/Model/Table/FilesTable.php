@@ -9,7 +9,6 @@ use Cake\Validation\Validator;
 /**
  * Files Model
  *
- * @property \Cake\ORM\Association\BelongsTo $Types
  * @property \Cake\ORM\Association\BelongsTo $Users
  * @property \Cake\ORM\Association\BelongsTo $Projects
  *
@@ -42,10 +41,11 @@ class FilesTable extends Table
 
         $this->addBehavior('Timestamp');
 
+        /*
         $this->belongsTo('Types', [
             'foreignKey' => 'type_id',
             'joinType' => 'INNER'
-        ]);
+        ]);*/
         $this->belongsTo('Users', [
             'foreignKey' => 'user_id',
             'joinType' => 'INNER'
@@ -72,8 +72,8 @@ class FilesTable extends Table
             ->notEmpty('name');
 
         $validator
-            ->requirePresence('file_type', 'create')
-            ->notEmpty('file_type');
+            ->requirePresence('type', 'create')
+            ->notEmpty('type');
 
         $validator
             ->integer('size')
@@ -101,7 +101,7 @@ class FilesTable extends Table
      */
     public function buildRules(RulesChecker $rules)
     {
-        $rules->add($rules->existsIn(['type_id'], 'Types'));
+        //$rules->add($rules->existsIn(['type_id'], 'Types'));
         $rules->add($rules->existsIn(['user_id'], 'Users'));
         $rules->add($rules->existsIn(['project_id'], 'Projects'));
 

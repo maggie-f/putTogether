@@ -1,5 +1,5 @@
-<div class="headPanel">
-    <div class="headPanelBody unselected teamBorder" id="team">
-        <span><i class="icon fa fa-envelope fa-2x"></i> Members</span> 
-    </div>
+<div class="card unselected teamBorder">
+  <div class="card-body">
+    <span><i class="icon fas fa-users fa-2x"></i> Members</span> 
+  </div>
 </div>

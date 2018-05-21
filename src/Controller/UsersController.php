@@ -55,7 +55,7 @@ class UsersController extends AppController
     */
     public function edit($id = null)
     {
-        $this->viewBuilder()->layout('default');
+        $this->viewBuilder()->layout('InternalPages/profile');
         $user = $this->Users->get($this->Auth->user('id'), [
         'contain' => []
         ]);

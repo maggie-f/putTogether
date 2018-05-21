@@ -1,5 +1,5 @@
-<div class="headPanel">
-    <div class="headPanelBody unselected taskBorder" id="tasks">
-        <span><i class="icon fa fa-check fa-2x"></i> Task</span> 
-    </div>
+<div class="card unselected taskBorder">
+  <div class="card-body">
+    <span><i class="icon fas fa-tasks fa-2x"></i> Tasks</span> 
+  </div>
 </div>

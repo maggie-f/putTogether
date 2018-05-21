@@ -13,7 +13,7 @@ class CommentsController extends AppController
     public function initialize()
     {
         parent::initialize();
-        $this->viewBuilder()->layout('InternalPages/newLayout');
+        $this->viewBuilder()->layout('InternalPages/tasks');
         $this->loadComponent('RequestHandler');
         $this->set('projects', $this->Comments->Projects->find()
                                             ->where(['user_id' => $this->Auth->user('id')])

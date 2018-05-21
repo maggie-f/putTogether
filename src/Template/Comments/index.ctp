@@ -9,26 +9,24 @@
         text-transform: uppercase;
     }
 </style>
-<div class="panel panel-default">
-    <div class="panel-heading">
-    Comment Area
-    </div>
-    <div class="panel-body" id="comments">
-        <?= $this->element('Editors/addComment') ?>
-        <ul>
-        <?php foreach($comments as $comment): ?>
-            <li> 
-                <?= $comment->user->email    ?>
 
-                <?= $comment->created    ?>
+<h4 style="color:#5bc0de;">For any update or comment, please feel free to leave it here </h4>
 
-                <?= $comment->comment    ?>
+<br />
+<?= $this->element('Editors/addComment') ?>
+<ul>
+<?php foreach($comments as $comment): ?>
+    <li> 
+        <div class="commentBody">
+        <?= $comment->user->Name    ?>: <?= $comment->comment    ?>
+        </div>
+        <div class="commentDetails">
+            <?= $comment->created    ?>
 
-                <?= $this->Form->postLink($this->element('Items\trash'), 
-                                            ['action' => 'delete', $comment->id], 
-                                            ['confirm' => __('Are you sure you want to delete?'), 'escape'=>false] ) ?>
-            </li>
-        <?php endforeach; ?>
-        </ul>
-    </div>
-</div>
+            <?= $this->Form->postLink($this->element('Items\trash'), 
+                                        ['action' => 'delete', $comment->id], 
+                                        ['confirm' => __('Are you sure you want to delete?'), 'escape'=>false] ) ?>
+        </div>
+    </li>
+<?php endforeach; ?>
+</ul>

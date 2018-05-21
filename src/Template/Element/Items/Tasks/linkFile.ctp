@@ -1,5 +1,5 @@
-<div class="headPanel">
-    <div class="headPanelBody unselected fileBorder" id="files">
-        <span><i class="icon fa fa-file fa-2x"></i> Files</span> 
-    </div>
+<div class="card unselected fileBorder">
+  <div class="card-body">
+    <span><i class="icon fa fa-file-alt fa-2x"></i> Files</span> 
+  </div>
 </div>

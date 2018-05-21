@@ -1,5 +1,5 @@
-<div class="headPanel">
-    <div class="headPanelBody unselected projectBorder" id="project">
-        <span><i class="icon fa fa-check fa-2x"></i> Project</span> 
-    </div>
+<div class="card unselected projectBorder">
+  <div class="card-body">
+    <span><i class="icon fas fa-cube fa-2x"></i> Project</span> 
+  </div>
 </div>

@@ -30,7 +30,7 @@ $pageDescription = 'Wellcome to PutTogether';
     <?= $this->Html->css('bootstrap.css'); ?>
     <?= $this->Html->css('font-awesome.min.css'); ?>
     <?= $this->Html->css('main.css') ?>
-    <?= $this->Html->css('jquery-ui-1.12.1.css') ?>
+    <?= $this->Html->css('jquery-ui-1.12.1.css') ?> -->
     <?= $this->fetch('css') ?>
     
     <!-- js -->

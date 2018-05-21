@@ -5,6 +5,7 @@
 /vendor/*
 /logs/error.log
 /temp/*
+
 # OS generated files #
 ######################
 .DS_Store

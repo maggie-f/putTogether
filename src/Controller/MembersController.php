@@ -13,7 +13,7 @@ class MembersController extends AppController
     public function initialize()
     {
         parent::initialize();
-        $this->viewBuilder()->layout('InternalPages/newLayout');
+        $this->viewBuilder()->layout('InternalPages/tasks');
     }
 
     /**

@@ -30,6 +30,7 @@ $pageDescription = 'Wellcome to PutTogether';
     <?= $this->Html->css('bootstrap.min.v4.css'); ?>
     <?= $this->Html->css('bootstrap-grid.min.css'); ?>
     <?= $this->Html->css('bootstrap-reboot.min.css'); ?>
+    <?= $this->Html->css('jquery-ui-1.12.1.css'); ?>
     <?= $this->Html->css('fontawesome-all.min.css'); ?>
     <?= $this->Html->css('site.css') ?>
 
@@ -45,7 +46,7 @@ $pageDescription = 'Wellcome to PutTogether';
     <?= $this->fetch('css') ?>
     <?= $this->fetch('script') ?>
 
-    <link rel="shortcut icon" href="/PutTogether/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/PutTogether/puttogether.ico" type="image/x-icon" />
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -59,7 +60,7 @@ $pageDescription = 'Wellcome to PutTogether';
         <?= $this->element('Bars\header'); ?>
     </header>
         
-    <div class="container-fluid">
+    <main class="container-fluid">
         <div class="row">
             <!-- MENU  -->
             <div class="col-xs-12 col-sm-2" id="menu" style="display: none;">
@@ -80,7 +81,7 @@ $pageDescription = 'Wellcome to PutTogether';
             </div>
         </div>
         <hr>
-    </div> 
+    </main> 
      
     <footer class="container">
         <div class="row">

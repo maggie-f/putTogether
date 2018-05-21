@@ -18,7 +18,7 @@ class FilesController extends AppController
     public function initialize()
     {
         parent::initialize();
-        $this->viewBuilder()->layout('InternalPages/newLayout');
+        $this->viewBuilder()->layout('InternalPages/tasks');
         $this->loadComponent('RequestHandler');
         $this->set('projects', $this->Files->Projects->find()
                                             ->where(['user_id' => $this->Auth->user('id')])
@@ -106,7 +106,7 @@ class FilesController extends AppController
             {
                 $new_file = $this->Files->newEntity();
                 $new_file->name = $final_file;
-                $new_file->file_type = $file_type;
+                $new_file->type = $file_type;
                 $new_file->size = $file_size;
                 $new_file->path = $folder;
                 $new_file->user_id = $this->Auth->user('id');
@@ -128,11 +128,10 @@ class FilesController extends AppController
             }
         }
 
-        return $this->redirect(['controller'=>'Files', 'action' => 'index', $id]);
-        $types = $this->Files->Types->find('list', ['limit' => 200]);
+        //return $this->redirect(['controller'=>'Files', 'action' => 'index', $id]);
         $user = $this->Files->Users->get($this->Auth->user('id'));
         $projects = $this->Files->Projects->find('list', ['limit' => 200]);
-        $this->set(compact('file', 'types', 'user', 'projects', 'dir', 'folder', 'result'));
+        $this->set(compact('file', 'user', 'projects', 'dir', 'folder', 'result'));
         $this->set('_serialize', ['file', 'user', 'dir', 'folder', 'result']);
     }
 

@@ -35,7 +35,7 @@ $pageDescription = 'Wellcome to PutTogether';
 
     <!-- Js -->
     <?= $this->Html->script('jquery-3.1.1.min.js'); ?>
-    <?= $this->Html->script('jquery-ui-1.12.1.js'); ?>
+    <!-- <= $this->Html->script('jquery-ui-1.12.1.js'); ?> -->
     <?= $this->Html->script('bootstrap.bundle.min.js'); ?>
     <?= $this->Html->script('bootstrap.min.js'); ?>
     <?= $this->Html->script('putTogether.js'); ?>
