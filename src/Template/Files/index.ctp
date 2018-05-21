@@ -19,6 +19,7 @@ $this->loadHelper('Files');
     <table class="table table-striped">
         <thead>
             <tr>
+                <th scope="col"><?= $this->Paginator->sort('id') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('name') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('file_type') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('size') ?></th>
@@ -30,6 +31,7 @@ $this->loadHelper('Files');
         <tbody>
             <?php foreach ($files as $file): ?>
             <tr>
+                <td><?= $this->Number->format($file->idate) ?> </td>
                 <td><?= h($file->name) ?></td>
                 <td><?= $this->Files->getExtention($file->name); ?></td>
                 <td><?= $this->Number->format($file->size) ?></td>

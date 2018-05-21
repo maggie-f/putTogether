@@ -1,7 +1,4 @@
 <div class="card border-success mb-3">
-    <div class="card-header">
-        Task Admin
-    </div>
     <div class="card-body">
         <?php 
             echo $this->Form->create(null, ['type' => 'post', 'id'=>'formPart', 'url' => ['controller' => 'Tasks', 'action' => 'add']]);   

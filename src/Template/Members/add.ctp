@@ -1,17 +1,12 @@
-<nav class="large-3 medium-4 columns" id="actions-sidebar">
-    <ul class="side-nav">
-        <li class="heading"><?= __('Actions') ?></li>
-        <li><?= $this->Html->link(__('List Members'), ['action' => 'index']) ?></li>
-    </ul>
-</nav>
+
 <div class="members form large-9 medium-8 columns content">
-    <?= $this->Form->create($member) ?>
+    <?= $this->Form->create(null,  ['type' => 'post', 'url' => ['controller' => 'Members', 'action' => 'add', $project->id]]) ?>
     <fieldset>
         <legend><?= __('Add Member') ?></legend>
         <?php
-            echo $this->Form->input('user_id', ['options' => $users]);
-            echo $this->Form->input('project_id', ['options' => $projects]);
-            echo $this->Form->input('add_date');
+            
+            echo $this->Form->input('project_id', ['type' => 'text', 'value' => $project->name, 'disable' =>'true']);
+            echo $this->Form->input('Form.user_id', ['options' => $users]);
         ?>
     </fieldset>
     <?= $this->Form->button(__('Submit')) ?>

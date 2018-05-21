@@ -1,7 +1,7 @@
 <nav class="large-3 medium-4 columns" id="actions-sidebar">
     <ul class="side-nav">
         <li class="heading"><?= __('Actions') ?></li>
-        <li><?= $this->Html->link(__('New Member'), ['action' => 'add']) ?></li>
+        <li><?= $this->Html->link(__('New Member'), ['action' => 'add', $project->id]) ?></li>
     </ul>
 </nav>
 

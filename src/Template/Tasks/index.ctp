@@ -2,7 +2,7 @@
 <div class="row">
     <div class="col-sm-8 col-md-8 col-lg-8 col-xl-8 nopadding tasks" id="taskList">
         <div class="card border-success mb-3">
-            <div class="card-header">
+            <div class="card-body" >
                 <div class="row">
                     <div class="col-md-11">
                         Tasks of  <strong><?= $project->name; ?> </strong>
@@ -11,8 +11,8 @@
                         <a id="lnkActionEditor" onclick="putTogether.checkState();" title="Open Task Editor"><i id="iconActionEditor" class="fa fa-angle-double-right" aria-hidden="true"></i></a>
                     </div>
                 </div>
-            </div>
-            <div class="card-body" >
+                
+
                 <table class="table table-hover" id="accordion" role="tablist" aria-multiselectable="true">
                     <thead>
                         <tr>

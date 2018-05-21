@@ -50,8 +50,10 @@ class MembersController extends AppController
             'contain' => ['Projects']
         ]);
 
-        $this->set('member', $member);
-        $this->set('_serialize', ['member']);
+        //$this->set('member', $member);
+        //$this->set('_serialize', ['member']);
+        $this->set(compact('members', 'project', 'teams'));
+        $this->set('_serialize', ['members', 'project', 'teams']);
     }
 
     /**
@@ -59,24 +61,27 @@ class MembersController extends AppController
      *
      * @return \Cake\Network\Response|void Redirects on successful add, renders view otherwise.
      */
-    public function add()
+    public function add($id = null)
     {
-        $member = $this->Members->newEntity();
-        if ($this->request->is('post')) {
-            $member = $this->Members->patchEntity($member, $this->request->data);
+        if(!empty($id) && $this->request->is('post')){
+            $member = $this->Members->newEntity();
+            $member->project_id = $id; 
+            $member->user_id = 5;//$this->request->data['Form']['user_id'];
             $member->user_id_owner = $this->Auth->user('id');
+            
             if ($this->Members->save($member)) {
                 $this->Flash->success(__('The member has been saved.'));
 
-                return $this->redirect(['controller'=>'Members', 'action' => 'index', $member->project_id]);
+                return $this->redirect(['controller'=>'Members', 'action' => 'index', $id]);
             } else {
                 $this->Flash->error(__('The member could not be saved. Please, try again.'));
             }
         }
+        
+        $project = $this->Members->Projects->get($id);
         $users = $this->Members->Users->find('list', ['limit' => 200]);
-        $projects = $this->Members->Projects->find('list', ['limit' => 200]);
-        $this->set(compact('member', 'users', 'projects'));
-        $this->set('_serialize', ['member']);
+        $this->set(compact('member', 'users', 'projects','project'));
+        $this->set('_serialize', ['member','project']);
     }
 
     /**

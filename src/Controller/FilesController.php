@@ -202,7 +202,11 @@ class FilesController extends AppController
     */
     public function downloadFile($id=null){
         $file = $this->Files->get($id);
-        $response = $this->response->file($file['path'].DS.$file['name'],['download' => true, 'name' => $file['name']]);
+        $aux_path = WWW_ROOT . 'uploads' . $file->id;
+        $response = $this->response->file(
+                        $aux_path,
+                        ['download' => true, 
+                         'name' => 'Filename'.$id]);
         return $this->response;
     }
 

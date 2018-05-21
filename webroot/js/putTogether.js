@@ -20,7 +20,9 @@ var putTogether = {
 				$(function() {
 					$("#ended").datepicker();
 					$("#ended").datepicker("option", "dateFormat", "mm/dd/yy");});
-
+				$(function() {
+					$("#enddate").datepicker();
+					$("#enddate").datepicker("option", "dateFormat", "mm/dd/yy");});
 				putTogether.assingClasses;
 			},
 	seeUnseeMenu: $(function(){
@@ -150,15 +152,15 @@ var putTogether = {
 	actionEditor: function (value){
 					if(value){
 						$("#taskEditor").removeClass("notSee");
-						$('#taskList').removeClass("col-sm-12");
-						$('#taskList').addClass("col-sm-8");
+						$('#taskList').removeClass("col-sm-12 col-md-12 col-lg-12");
+						$('#taskList').addClass("col-sm-8 col-md-8 col-lg-8");
 						$('#iconActionEditor').removeClass("fa-angle-double-left");
 						$('#iconActionEditor').addClass("fa-angle-double-right");
 						$('#lnkActionEditor').attr("title", "Close Task Editor");
 					}else{
 						$("#taskEditor").addClass("notSee");
-						$('#taskList').removeClass("col-sm-8");
-						$('#taskList').addClass("col-sm-12");
+						$('#taskList').removeClass("col-sm-8 col-md-8 col-lg-8");
+						$('#taskList').addClass("col-sm-12 col-md-12 col-lg-12");
 						$('#iconActionEditor').removeClass("fa-angle-double-right");
 						$('#iconActionEditor').addClass("fa-angle-double-left");
 						$('#lnkActionEditor').attr("title", "Open Task Editor");
