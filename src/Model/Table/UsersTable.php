@@ -9,7 +9,13 @@ use Cake\Validation\Validator;
 /**
  * Users Model
  *
- * @property \Cake\ORM\Association\HasMany $Bookmarks
+ * @property \App\Model\Table\CommentsTable|\Cake\ORM\Association\HasMany $Comments
+ * @property \App\Model\Table\FilesTable|\Cake\ORM\Association\HasMany $Files
+ * @property \App\Model\Table\MembersTable|\Cake\ORM\Association\HasMany $Members
+ * @property \App\Model\Table\ProjectsTable|\Cake\ORM\Association\HasMany $Projects
+ * @property \App\Model\Table\TasksTable|\Cake\ORM\Association\HasMany $Tasks
+ * @property \App\Model\Table\TeamsTable|\Cake\ORM\Association\HasMany $Teams
+ * @property \App\Model\Table\TeamsTable|\Cake\ORM\Association\BelongsToMany $Teams
  *
  * @method \App\Model\Entity\User get($primaryKey, $options = [])
  * @method \App\Model\Entity\User newEntity($data = null, array $options = [])
@@ -34,14 +40,34 @@ class UsersTable extends Table
     {
         parent::initialize($config);
 
-        $this->table('users');
-        $this->displayField('id');
-        $this->primaryKey('id');
+        $this->setTable('users');
+        $this->setDisplayField('id');
+        $this->setPrimaryKey('id');
 
         $this->addBehavior('Timestamp');
 
-        $this->hasMany('Bookmarks', [
+        $this->hasMany('Comments', [
             'foreignKey' => 'user_id'
+        ]);
+        $this->hasMany('Files', [
+            'foreignKey' => 'user_id'
+        ]);
+        $this->hasMany('Members', [
+            'foreignKey' => 'user_id'
+        ]);
+        $this->hasMany('Projects', [
+            'foreignKey' => 'user_id'
+        ]);
+        $this->hasMany('Tasks', [
+            'foreignKey' => 'user_id'
+        ]);
+        $this->hasMany('Teams', [
+            'foreignKey' => 'user_id'
+        ]);
+        $this->belongsToMany('Teams', [
+            'foreignKey' => 'user_id',
+            'targetForeignKey' => 'team_id',
+            'joinTable' => 'teams_users'
         ]);
     }
 
@@ -63,8 +89,62 @@ class UsersTable extends Table
             ->notEmpty('email');
 
         $validator
+            ->scalar('password')
+            ->maxLength('password', 255)
             ->requirePresence('password', 'create')
             ->notEmpty('password');
+
+        $validator
+            ->scalar('Name')
+            ->maxLength('Name', 50)
+            ->requirePresence('Name', 'create')
+            ->notEmpty('Name');
+
+        $validator
+            ->dateTime('birthdate')
+            ->allowEmpty('birthdate');
+
+        $validator
+            ->dateTime('last_login')
+            ->allowEmpty('last_login');
+
+        $validator
+            ->boolean('blocked')
+            ->allowEmpty('blocked');
+
+        $validator
+            ->scalar('bio')
+            ->maxLength('bio', 500)
+            ->allowEmpty('bio');
+
+        $validator
+            ->scalar('profession')
+            ->maxLength('profession', 100)
+            ->allowEmpty('profession');
+
+        $validator
+            ->allowEmpty('profile_picture');
+
+        $validator
+            ->allowEmpty('cover_picture');
+
+        $validator
+            ->scalar('web_site')
+            ->maxLength('web_site', 250)
+            ->allowEmpty('web_site');
+
+        $validator
+            ->scalar('surname')
+            ->maxLength('surname', 100)
+            ->allowEmpty('surname');
+
+        $validator
+            ->integer('login_try')
+            ->allowEmpty('login_try');
+
+        $validator
+            ->dateTime('block_date')
+            ->allowEmpty('block_date');
 
         return $validator;
     }

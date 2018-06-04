@@ -23,6 +23,8 @@ class ProjectsController extends AppController
                                             ->where(['user_id' => $this->Auth->user('id')])
                                             ->all());
         $this->set('idTask', 0);
+        $isUser = false;
+        $this->set('isUser', $isUser);
     }
 
     /**

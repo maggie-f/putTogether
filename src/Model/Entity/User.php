@@ -2,7 +2,7 @@
 namespace App\Model\Entity;
 
 use Cake\ORM\Entity;
-use Cake\Auth\DefaultPasswordHasher;
+use Cake\Auth\DefaultPasswordHasher; 
 
 /**
  * User Entity
@@ -10,10 +10,27 @@ use Cake\Auth\DefaultPasswordHasher;
  * @property int $id
  * @property string $email
  * @property string $password
- * @property \Cake\I18n\Time $created
- * @property \Cake\I18n\Time $modified
+ * @property \Cake\I18n\FrozenTime $created
+ * @property \Cake\I18n\FrozenTime $modified
+ * @property string $Name
+ * @property \Cake\I18n\FrozenTime $birthdate
+ * @property \Cake\I18n\FrozenTime $last_login
+ * @property bool $blocked
+ * @property string $bio
+ * @property string $profession
+ * @property string|resource $profile_picture
+ * @property string|resource $cover_picture
+ * @property string $web_site
+ * @property string $surname
+ * @property int $login_try
+ * @property \Cake\I18n\FrozenTime $block_date
  *
- * @property \App\Model\Entity\Bookmark[] $bookmarks
+ * @property \App\Model\Entity\Comment[] $comments
+ * @property \App\Model\Entity\File[] $files
+ * @property \App\Model\Entity\Member[] $members
+ * @property \App\Model\Entity\Project[] $projects
+ * @property \App\Model\Entity\Task[] $tasks
+ * @property \App\Model\Entity\Team[] $teams
  */
 class User extends Entity
 {
@@ -28,8 +45,28 @@ class User extends Entity
      * @var array
      */
     protected $_accessible = [
-        '*' => true,
-        'id' => false
+        'email' => true,
+        'password' => true,
+        'created' => true,
+        'modified' => true,
+        'Name' => true,
+        'birthdate' => true,
+        'last_login' => true,
+        'blocked' => true,
+        'bio' => true,
+        'profession' => true,
+        'profile_picture' => true,
+        'cover_picture' => true,
+        'web_site' => true,
+        'surname' => true,
+        'login_try' => true,
+        'block_date' => true,
+        'comments' => true,
+        'files' => true,
+        'members' => true,
+        'projects' => true,
+        'tasks' => true,
+        'teams' => true
     ];
 
     /**

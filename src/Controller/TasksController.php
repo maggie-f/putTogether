@@ -32,16 +32,6 @@ class TasksController extends AppController
     * Index method
     *
     * @return \Cake\Network\Response|null
-    *    public function index()
-    *   {
-    *      $this->paginate = [
-    *         'contain' => ['Priorities', 'Users', 'Projects', 'States']
-    *    ];
-    *   $tasks = $this->paginate($this->Tasks);
-    *
-    *     $this->set(compact('tasks'));
-    *     $this->set('_serialize', ['tasks']);
-    *}
     */
     public function index($id=null)
     {

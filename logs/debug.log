@@ -19614,3 +19614,2205 @@ Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
 
 
 
+2018-05-23 12:29:43 Notice: Notice (8): Undefined variable: teams in [C:\xampp\htdocs\PutTogether\src\Template\Users\edit.ctp, line 48]
+Request URL: /users/edit
+Referer URL: http://localhost/PutTogether/projects
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Users\edit.ctp, line 48
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::render() - CORE\src\View\View.php, line 772
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-23 12:29:43 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /users/edit
+Referer URL: http://localhost/PutTogether/projects
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\profile.ctp, line 60
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-23 12:30:43 Notice: Notice (8): Undefined variable: teams in [C:\xampp\htdocs\PutTogether\src\Template\Users\edit.ctp, line 23]
+Request URL: /users/edit
+Referer URL: http://localhost/PutTogether/projects
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Users\edit.ctp, line 23
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::render() - CORE\src\View\View.php, line 772
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-23 12:30:43 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /users/edit
+Referer URL: http://localhost/PutTogether/projects
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\profile.ctp, line 60
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-23 12:31:01 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /users/edit
+Referer URL: http://localhost/PutTogether/projects
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\profile.ctp, line 60
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-23 12:33:53 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /users/edit
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\profile.ctp, line 60
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-23 12:35:41 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /users/edit
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\profile.ctp, line 65
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-23 12:35:58 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /users/edit
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\profile.ctp, line 65
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-23 12:36:25 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /users/edit
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\profile.ctp, line 66
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-23 12:37:53 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /users/edit
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\profile.ctp, line 70
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-23 12:37:55 Notice: Notice (8): Undefined variable: project in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\verticalOptionTaskBar.ctp, line 4]
+Request URL: /users/edit
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\verticalOptionTaskBar.ctp, line 4
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\profile.ctp, line 77
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-23 12:37:55 Notice: Notice (8): Trying to get property 'id' of non-object in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\verticalOptionTaskBar.ctp, line 4]
+Request URL: /users/edit
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\verticalOptionTaskBar.ctp, line 4
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\profile.ctp, line 77
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-23 12:37:55 Notice: Notice (8): Undefined variable: project in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\verticalOptionTaskBar.ctp, line 7]
+Request URL: /users/edit
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\verticalOptionTaskBar.ctp, line 7
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\profile.ctp, line 77
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-23 12:37:55 Notice: Notice (8): Trying to get property 'id' of non-object in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\verticalOptionTaskBar.ctp, line 7]
+Request URL: /users/edit
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\verticalOptionTaskBar.ctp, line 7
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\profile.ctp, line 77
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-23 12:37:55 Notice: Notice (8): Undefined variable: project in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\verticalOptionTaskBar.ctp, line 10]
+Request URL: /users/edit
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\verticalOptionTaskBar.ctp, line 10
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\profile.ctp, line 77
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-23 12:37:55 Notice: Notice (8): Trying to get property 'id' of non-object in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\verticalOptionTaskBar.ctp, line 10]
+Request URL: /users/edit
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\verticalOptionTaskBar.ctp, line 10
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\profile.ctp, line 77
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-23 12:37:55 Notice: Notice (8): Undefined variable: project in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\verticalOptionTaskBar.ctp, line 13]
+Request URL: /users/edit
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\verticalOptionTaskBar.ctp, line 13
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\profile.ctp, line 77
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-23 12:37:55 Notice: Notice (8): Trying to get property 'id' of non-object in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\verticalOptionTaskBar.ctp, line 13]
+Request URL: /users/edit
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\verticalOptionTaskBar.ctp, line 13
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\profile.ctp, line 77
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-23 12:37:55 Notice: Notice (8): Undefined variable: project in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\verticalOptionTaskBar.ctp, line 16]
+Request URL: /users/edit
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\verticalOptionTaskBar.ctp, line 16
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\profile.ctp, line 77
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-23 12:37:55 Notice: Notice (8): Trying to get property 'id' of non-object in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\verticalOptionTaskBar.ctp, line 16]
+Request URL: /users/edit
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\verticalOptionTaskBar.ctp, line 16
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\profile.ctp, line 77
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-23 12:37:55 Notice: Notice (8): Undefined variable: project in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\verticalOptionTaskBar.ctp, line 19]
+Request URL: /users/edit
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\verticalOptionTaskBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\profile.ctp, line 77
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-23 12:37:55 Notice: Notice (8): Trying to get property 'id' of non-object in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\verticalOptionTaskBar.ctp, line 19]
+Request URL: /users/edit
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\verticalOptionTaskBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\profile.ctp, line 77
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-23 12:42:32 Notice: Notice (8): Undefined variable: isTask in [C:\xampp\htdocs\PutTogether\src\Template\Layout\InternalPages\projects.ctp, line 67]
+Request URL: /Projects
+Referer URL: http://localhost/PutTogether/users/edit
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\InternalPages\projects.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-23 12:43:28 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /users/edit
+Referer URL: http://localhost/PutTogether/Projects
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\projects.ctp, line 64
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-23 12:43:30 Notice: Notice (8): Undefined variable: isTask in [C:\xampp\htdocs\PutTogether\src\Template\Layout\InternalPages\projects.ctp, line 67]
+Request URL: /users/edit
+Referer URL: http://localhost/PutTogether/Projects
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Layout\InternalPages\projects.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-23 12:44:09 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /users/edit
+Referer URL: http://localhost/PutTogether/Projects
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\projects.ctp, line 64
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-23 12:44:24 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /users/edit
+Referer URL: http://localhost/PutTogether/Projects
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\projects.ctp, line 64
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-23 12:46:51 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /users/edit
+Referer URL: http://localhost/PutTogether/Projects
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\projects.ctp, line 64
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-23 12:47:34 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /users/edit
+Referer URL: http://localhost/PutTogether/Projects
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\projects.ctp, line 64
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-23 12:49:28 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /users/edit
+Referer URL: http://localhost/PutTogether/Projects
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\projects.ctp, line 64
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-23 12:51:49 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /users/edit
+Referer URL: http://localhost/PutTogether/Projects
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\projects.ctp, line 64
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-23 12:53:19 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /users/edit
+Referer URL: http://localhost/PutTogether/Projects
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\projects.ctp, line 64
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-23 12:53:30 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /users/edit
+Referer URL: http://localhost/PutTogether/Projects
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\projects.ctp, line 64
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-23 12:54:53 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /users/edit
+Referer URL: http://localhost/PutTogether/Projects
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\projects.ctp, line 64
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-23 12:57:07 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /users/edit
+Referer URL: http://localhost/PutTogether/Projects
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\projects.ctp, line 64
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-23 12:57:57 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /users/edit
+Referer URL: http://localhost/PutTogether/Projects
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\projects.ctp, line 65
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-23 13:25:00 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /users/edit
+Referer URL: http://localhost/PutTogether/projects
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\projects.ctp, line 65
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-23 13:26:40 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /users/edit
+Referer URL: http://localhost/PutTogether/projects
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\projects.ctp, line 65
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-23 13:33:17 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /users/edit
+Referer URL: http://localhost/PutTogether/projects
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\projects.ctp, line 65
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-28 17:38:52 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /users/edit
+Referer URL: http://localhost/PutTogether/Projects
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\projects.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-28 17:40:42 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /users/edit
+Referer URL: http://localhost/PutTogether/Projects
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\projects.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-28 17:50:02 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /users/edit
+Referer URL: http://localhost/PutTogether/Projects
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\projects.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-28 17:52:49 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /users/edit
+Referer URL: http://localhost/PutTogether/Projects
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\projects.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-28 17:53:39 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /users/edit
+Referer URL: http://localhost/PutTogether/Projects
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\projects.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-28 17:54:56 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /users/edit
+Referer URL: http://localhost/PutTogether/Projects
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\projects.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-28 17:55:47 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /users/edit
+Referer URL: http://localhost/PutTogether/Projects
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\projects.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-28 17:56:10 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /users/edit
+Referer URL: http://localhost/PutTogether/Projects
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\projects.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-28 17:56:38 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /users/edit
+Referer URL: http://localhost/PutTogether/Projects
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\projects.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-28 17:57:01 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /users/edit
+Referer URL: http://localhost/PutTogether/Projects
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\projects.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-28 17:57:47 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /users/edit
+Referer URL: http://localhost/PutTogether/Projects
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\projects.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-28 17:58:28 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /users/edit
+Referer URL: http://localhost/PutTogether/Projects
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\projects.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-28 17:58:45 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /users/edit
+Referer URL: http://localhost/PutTogether/Projects
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\projects.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-28 18:12:20 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /users/edit
+Referer URL: http://localhost/PutTogether/Projects
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\projects.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-28 18:12:21 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /users/edit
+Referer URL: http://localhost/PutTogether/Projects
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\projects.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-28 18:12:23 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /users/edit
+Referer URL: http://localhost/PutTogether/Projects
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\projects.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-28 18:12:41 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /users/edit
+Referer URL: http://localhost/PutTogether/users/edit
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\projects.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-28 18:35:58 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /users/edit
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\projects.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-28 18:38:23 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /users/edit
+Referer URL: http://localhost/PutTogether/users/edit
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\projects.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-28 18:39:32 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /users/edit
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\projects.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-28 18:42:12 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /users/edit
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\projects.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-28 18:58:00 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /tasks/index/13
+Referer URL: http://localhost/PutTogether/Projects
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\tasks.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-28 18:58:17 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /tasks?id=13
+Referer URL: http://localhost/PutTogether/tasks/index/13
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\tasks.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-31 12:18:17 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /tasks/index/20
+Referer URL: http://localhost/PutTogether/projects
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\tasks.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-31 14:42:09 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /tasks/index/20
+Referer URL: http://localhost/PutTogether/projects
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\tasks.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-31 14:42:48 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /tasks/index/20?sort=name&direction=asc
+Referer URL: http://localhost/PutTogether/tasks/index/20
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\tasks.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-05-31 14:42:50 Notice: Notice (8): Undefined variable: projects in [C:\xampp\htdocs\PutTogether\src\Template\Element\Bars\navBar.ctp, line 19]
+Request URL: /tasks/index/20?sort=name&direction=desc
+Referer URL: http://localhost/PutTogether/tasks/index/20?sort=name&direction=asc
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\Bars\navBar.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1561
+Cake\View\View::element() - CORE\src\View\View.php, line 675
+include - APP/Template\Layout\InternalPages\tasks.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1203
+Cake\View\View::_render() - CORE\src\View\View.php, line 1164
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 819
+Cake\View\View::render() - CORE\src\View\View.php, line 777
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+

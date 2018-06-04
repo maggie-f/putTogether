@@ -23,6 +23,9 @@ var putTogether = {
 				$(function() {
 					$("#enddate").datepicker();
 					$("#enddate").datepicker("option", "dateFormat", "mm/dd/yy");});
+				$(function() {
+					$("#birthdate").datepicker();
+					$("#birthdate").datepicker("option", "dateFormat", "mm/dd/yy");});
 				putTogether.assingClasses;
 			},
 	seeUnseeMenu: $(function(){
@@ -99,7 +102,7 @@ var putTogether = {
 	editState: function (idTask, idState){
 				$.ajax({
 					type:"POST",
-					url: "/PutTogether/tasks/edit-state?id="+idTask+"&state="+idState,
+					url: "/PutTogether/tasks/editState?id="+idTask+"&state="+idState,
 					dataType: 'text',
 					async:true,
 					success: function(tab){

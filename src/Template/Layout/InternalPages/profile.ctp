@@ -27,20 +27,26 @@ $pageDescription = 'Wellcome to PutTogether';
     </title>
 
     <!-- Style -->
-    <?= $this->Html->css('bootstrap.css'); ?>
-    <?= $this->Html->css('font-awesome.min.css'); ?>
-    <?= $this->Html->css('main.css') ?>
-    <?= $this->Html->css('jquery-ui-1.12.1.css') ?> -->
-    <?= $this->fetch('css') ?>
-    
-    <!-- js -->
-    <?= $this->fetch('meta') ?>
-    <?= $this->Html->script('jquery-1.12.4.js'); ?> 
+    <?= $this->Html->css('bootstrap.min.v4.css'); ?>
+    <?= $this->Html->css('bootstrap-grid.min.css'); ?>
+    <?= $this->Html->css('bootstrap-reboot.min.css'); ?>
+    <?= $this->Html->css('jquery-ui-1.12.1.css'); ?>
+    <?= $this->Html->css('fontawesome-all.min.css'); ?>
+    <?= $this->Html->css('site.css') ?>
+
+    <!-- Js -->
+    <?= $this->Html->script('jquery-3.1.1.min.js'); ?>
     <?= $this->Html->script('jquery-ui-1.12.1.js'); ?>
-    <?= $this->Html->script('bootstrap.js'); ?> 
+    <?= $this->Html->script('bootstrap.bundle.min.js'); ?>
+    <?= $this->Html->script('bootstrap.min.js'); ?>
     <?= $this->Html->script('putTogether.js'); ?>
+
+    <!-- Fetch -->
+    <?= $this->fetch('meta') ?>
+    <?= $this->fetch('css') ?>
     <?= $this->fetch('script') ?>
-    <link rel="shortcut icon" href="/PutTogether/favicon.ico" type="image/x-icon" />
+    
+    <link rel="shortcut icon" href="/PutTogether/puttogether.ico" type="image/x-icon" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -51,36 +57,39 @@ $pageDescription = 'Wellcome to PutTogether';
     
   </head>
   <body>
-    <!-- Principal BAR -->
-    <?= $this->element('Bars\header'); ?>
 
-    <div class="row">
-        <!-- MENU  -->
-        <div class="col-md-2 navbar" id="menu" style="display: none;">
+    <!-- HEADER -->
+    <header class="header">
+        <?= $this->element('Bars\header'); ?>
+    </header>
+        
+    <main class="container-fluid">
+        <div class="row">
+            <!-- MENU  -->
+            <div class="col-xs-12 col-sm-2" id="menu" style="display: none;">
                 <?php echo $this->element('Bars/navBar'); ?>
-        </div>
-        <!-- Contenido -->
-        <div class="col-md-12 nopadding" id="content">
-            <div class="row">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-10">
-                            <?= $this->Flash->render() ?>
-                            <?= $this->fetch('content') ?>	
-                        </div>
-                    </div> 
-                    <hr>
-                </div>
+            </div>
+            <!-- Contenido -->
+            <div class="col-xs-12 col-sm-12" id="content">
+                <br />
+                <div class="row">
+                    <div class="col-xs-4 col-md-2">
+                        <?= $this->element('Bars\verticalOptionTaskBar'); ?>
+                    </div>
+                    <div class="col-xs-8 col-md-10 ">
+                        <?= $this->Flash->render() ?>
+                        <?= $this->fetch('content') ?>	
+                    </div>
+                </div> 
             </div>
         </div>
-    </div>  
-
-    <footer>
+        <hr>
+    </main> 
+     
+    <footer class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="container">
-                    <p>&copy; 2017 Company, Inc.</p>
-                </div>
+                <p>&copy; 2017 Company, Inc.</p>
             </div>
         </div>
     </footer>

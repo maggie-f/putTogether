@@ -14,6 +14,8 @@ class UsersController extends AppController
     {
         parent::initialize();
         $this->Auth->allow(['logout', 'register']);
+        $isUser = true;
+        $this->set('isUser', $isUser);
     }
 
     /**
@@ -55,10 +57,11 @@ class UsersController extends AppController
     */
     public function edit($id = null)
     {
-        $this->viewBuilder()->layout('InternalPages/profile');
+        $this->viewBuilder()->layout('InternalPages/projects');
         $user = $this->Users->get($this->Auth->user('id'), [
-        'contain' => []
+        'contain' => ['Projects']
         ]);
+        $projects = $user->projects;
         if ($this->request->is(['patch', 'post', 'put'])) {
             $user = $this->Users->patchEntity($user, $this->request->data);
             if ($this->Users->save($user)) {
@@ -66,11 +69,11 @@ class UsersController extends AppController
                 
                 return $this->redirect(['action' => 'index']);
             } else {
-                $this->Flash->error(__('The user could not be saved. Please, try again.'));
+                (__('The user could not be saved. Please, try again.'));
             }
         }
-        $this->set(compact('user'));
-        $this->set('_serialize', ['user']);
+        $this->set(compact('user', 'projects'));
+        $this->set('_serialize', ['user', 'projects']);
     }
     
     /**

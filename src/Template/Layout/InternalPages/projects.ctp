@@ -30,12 +30,13 @@ $pageDescription = 'Wellcome to PutTogether';
     <?= $this->Html->css('bootstrap.min.v4.css'); ?>
     <?= $this->Html->css('bootstrap-grid.min.css'); ?>
     <?= $this->Html->css('bootstrap-reboot.min.css'); ?>
+    <?= $this->Html->css('jquery-ui-1.12.1.css'); ?>
     <?= $this->Html->css('fontawesome-all.min.css'); ?>
     <?= $this->Html->css('site.css') ?>
 
     <!-- Js -->
     <?= $this->Html->script('jquery-3.1.1.min.js'); ?>
-    <!-- <= $this->Html->script('jquery-ui-1.12.1.js'); ?> -->
+    <?= $this->Html->script('jquery-ui-1.12.1.js'); ?>
     <?= $this->Html->script('bootstrap.bundle.min.js'); ?>
     <?= $this->Html->script('bootstrap.min.js'); ?>
     <?= $this->Html->script('putTogether.js'); ?>
@@ -45,6 +46,7 @@ $pageDescription = 'Wellcome to PutTogether';
     <?= $this->fetch('css') ?>
     <?= $this->fetch('script') ?>
 
+    <link rel="shortcut icon" href="/PutTogether/puttogether.ico" type="image/x-icon" />
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -59,36 +61,35 @@ $pageDescription = 'Wellcome to PutTogether';
     </header>
     
     <!-- After the green  -->
-    <div class="row">
-        <div class="col-md-2" id="menu" style="display: none;">
-            <?php echo $this->element('Bars/navBar'); ?>
-        </div>
-
-        <!-- Quick Access Panel -->
-        <div class="col-md-12 nopadding" id="content">
-            <div class="container">
-                <?php echo $this->element('Bars/projectBar'); ?>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2" id="menu" style="display: none;">
+                <?php echo $this->element('Bars/navBar'); ?>
             </div>
-        <div>
 
-        <hr />
-
-        <!-- Main Content -->
-        <main class="container">
-            <div class="container-fluid">   
-                <div class="row">
-                    <?= $this->Flash->render() ?>
-                    <?= $this->fetch('content') ?>	
+            <!-- Quick Access Panel -->
+            <div class="col-md-12 nopadding" id="content">
+                <div class="container">
+                    <?php echo $this->element('Bars/projectBar'); ?>
                 </div>
-            </div>
-            <hr>
-        </main>
-    </div>
+            <div>
 
+            <hr />
+            
+            <!-- Main Content -->
+            <main class="container-fluid">
+                    <div class="row">
+                        <?= $this->Flash->render() ?>
+                        <?= $this->fetch('content') ?>	
+                    </div>
+                <hr>
+            </main>
+        </div>
+    </div>
     <!-- Footer -->
-    <footer class="row">
-        <div class="col-md-12">
-            <div class="container">
+    <footer class="container">
+        <div class="row">
+            <div class="col-md-12">
                 <p>&copy; 2017 Company, Inc.</p>
             </div>
         </div>
