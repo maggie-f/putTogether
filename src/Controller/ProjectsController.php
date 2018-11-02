@@ -74,7 +74,7 @@ class ProjectsController extends AppController
      */
     public function edit($id = null)
     {
-        $this->viewBuilder()->layout('InternalPages/newLayout');
+        $this->viewBuilder()->layout('InternalPages/projects');
         $project = $this->Projects->get($id);
         if ($this->request->is(['patch', 'post', 'put'])) {
             $project->name = $this->request->data['Form']['Name'];
